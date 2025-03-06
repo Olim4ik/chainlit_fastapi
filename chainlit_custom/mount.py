@@ -30,8 +30,6 @@ class ChainlitMiddleware(BaseHTTPMiddleware):
 
         return await call_next(request)
 
-# Function to mount a Chainlit app
-
 
 def mount_chainlit_custom(fastapi_app: FastAPI, target: str, path: str):
     # Configure Chainlit for this specific instance

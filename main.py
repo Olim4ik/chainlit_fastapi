@@ -16,7 +16,6 @@ async def info():
     return {"message": "This is a FastAPI endpoint"}
 
 
-# Define a simple FastAPI endpoint for testing
 @app.get("/health")
 async def health_check():
     return {"status": "ok"}
