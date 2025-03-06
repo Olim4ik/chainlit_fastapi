@@ -10,6 +10,19 @@ We are using socket connections of chainlit as our main socket connections for d
 Our Main AI service is chat-copilot, and there are several AI services with automation. 
 
 
+### About chainlit as a tool
+
+Chainlit is a good library for building chatbots.
+It have nice built-in tools for building chatbased applications (Streaming, Action buttons, Elements, etc.).
+You can use chainlit fully with python for chat apps, 
+or you can use python chainlit service as a BFF (Backend for Frontend) for your React app in the frontend.
+
+Chainlit have well organized socket for sharing data between the frontend and the backend.
+You can make some customizations based on your needs.
+
+You can build anything from simple RAG Q&A to complex multi-agent applications.
+
+
 ## How to run
 
 ```bash
